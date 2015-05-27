@@ -1,0 +1,29 @@
+{
+  "name": "proj",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.2.0",
+    "morgan": "~1.0.0",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5",
+    "static-favicon": "~1.0.0",
+    "websocket": "^1.0.18"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.0.0",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.12.2"
+  }
+}

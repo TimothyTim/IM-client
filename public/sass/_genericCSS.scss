@@ -1,0 +1,66 @@
+/*FIXED*/
+
+$facebook: #3b5998;
+$twitter: #55acee;
+$google: #d7422d;
+$linkedin: #0073b2;
+
+/*Flat UI Pallette*/
+
+$turquoise: #1abc9c;
+$green-sea: #16a085;
+$emerald: #2ecc71;
+$nephritis:#27ae60;
+$peter-river: #3498db;
+$belize-hole: #2980b9;
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+$wet-asphalt: #34495e;
+$midnight-blue: #2c3e50;
+$sun-flower: #f1c40f;
+$orange: #f39c12;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+
+/*BRANDING*/
+
+$primaryColor: orange; /*orange*/
+$primaryColor2:#FFB93A; /*less obtrusive primary used for page items*/
+
+$secondaryColor: #8697ba; /*darkblue*/
+$secondaryColor2: #4A79B2; /*grey blue*/
+
+$primaryText: #34495e; /*black blue grey*/
+$greyText: #f2f4f7; /*white blue*/
+$thirdColor: #C4BDB0; /*grey orange*/
+$fourthColor: #798694;
+$grey: #eeeeee; /*grey*/
+$blueyGreen: #1abc9c;
+
+/*DIMENSIONS*/
+
+$pageWidth: 1070px;
+
+/*MEDIA QUERIES*/
+
+$largeScreen:1070px;
+$mediumScreen:960px;
+$smallScreen:767px;
+
+/*OTHER*/
+
+.border{
+  border:1px solid #bbb;
+  border-radius:3px;
+}
+
+hr{
+  margin:0;
+  color:rgba(black,0.5);
+}
