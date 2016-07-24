@@ -1,5 +1,19 @@
-To Start:
+### IM-Client
 
+Setup
+
+```
 npm install
-debug="proj" ./bin/www
-grunt
+```
+
+Start
+
+```
+npm start
+```
+
+Develop
+
+```
+npm run watch
+```

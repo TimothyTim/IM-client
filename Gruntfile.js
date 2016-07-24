@@ -24,7 +24,7 @@ module.exports = function(grunt) {
             }
         },
         browserify:     {
-            /* Roughly equivalent to: 
+            /* Roughly equivalent to:
             * jsx --watch ./public/javascripts/src/ ./public/javascripts/build/
             * browserify ./public/javascripts/build/bundle.js > ./public/javascripts/build/bundle-browserified.js
             */
@@ -65,5 +65,6 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['watch']);
+    grunt.registerTask('build', ['browserify', 'compass', 'autoprefixer']);
 
 };

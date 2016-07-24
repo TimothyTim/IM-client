@@ -1,0 +1,6 @@
+*.sass-cache
+.sass-cache
+public/.sass-cache
+public/stylesheets
+public/javascripts/build
+node_modules
