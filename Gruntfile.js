@@ -9,11 +9,10 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
-        compass: {
+        sass: {
             dist: {
-                options: {
-                    sassDir: 'public/sass',
-                    cssDir: 'public/stylesheets'
+                files: {
+                    'public/stylesheets/stylesheet.css': 'public/sass/stylesheet.scss'
                 }
             }
         },
@@ -47,7 +46,7 @@ module.exports = function(grunt) {
             },
             css: {
                files: ["public/**/*.scss"],
-               tasks: ["compass", "autoprefixer"]
+               tasks: ["sass", "autoprefixer"]
             },
             options: {
                 livereload: true
@@ -57,14 +56,14 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-browserify');
+    grunt.loadNpmTasks('grunt-sass');
 
 
     // Default task(s).
     grunt.registerTask('default', ['watch']);
-    grunt.registerTask('build', ['browserify', 'compass', 'autoprefixer']);
+    grunt.registerTask('build', ['browserify', 'sass', 'autoprefixer']);
 
 };
